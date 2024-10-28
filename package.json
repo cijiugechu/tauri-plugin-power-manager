@@ -1,6 +1,6 @@
 {
   "name": "tauri-plugin-power-manager-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "nemurubaka",
   "description": "tauri plugin for shut down, reboot or log out operations.",
   "license": "MIT",

@@ -1,6 +1,6 @@
 [package]
 name = "tauri-plugin-power-manager"
-version = "0.1.0"
+version = "0.1.1"
 authors = [ "cijiugechu <cijiugechu@gmail.com>" ]
 description = "tauri plugin for shut down, reboot or log out operations."
 edition = "2021"
@@ -9,6 +9,8 @@ exclude = ["/examples", "/webview-dist", "/webview-src", "/node_modules"]
 links = "tauri-plugin-power-manager"
 keywords = ["tauri", "plugin", "power", "shutdown", "reboot"]
 license = "MIT"
+repository = "https://github.com/cijiugechu/tauri-plugin-power-manager"
+documentation = "https://docs.rs/tauri-plugin-power-manager"
 
 [dependencies]
 tauri = { version = "2.0.6" }
