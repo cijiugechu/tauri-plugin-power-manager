@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-force-shutdown"
+description = "Enables the force_shutdown command without any pre-configured scope."
+commands.allow = ["force_shutdown"]
+
+[[permission]]
+identifier = "deny-force-shutdown"
+description = "Denies the force_shutdown command without any pre-configured scope."
+commands.deny = ["force_shutdown"]

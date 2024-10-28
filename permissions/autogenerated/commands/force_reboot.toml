@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-force-reboot"
+description = "Enables the force_reboot command without any pre-configured scope."
+commands.allow = ["force_reboot"]
+
+[[permission]]
+identifier = "deny-force-reboot"
+description = "Denies the force_reboot command without any pre-configured scope."
+commands.deny = ["force_reboot"]
